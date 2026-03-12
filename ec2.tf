@@ -8,7 +8,7 @@ resource "aws_instance" "website_server" {
   tags = {
     Name        = "website-server"
     Provisioned = "Terraform"
-    Cliente     = "Leonardo"
+    Cliente     = "Maria"
   }
 }
 
@@ -19,7 +19,7 @@ resource "aws_security_group" "website_sg" {
   tags = {
     Name        = "website-sg"
     Provisioned = "Terraform"
-    Cliente     = "Leonardo"
+    Cliente     = "Maria"
   }
 }
 
